@@ -1,7 +1,11 @@
 function addToFrontOfNew(arr, element) {
     // your code here
+        let newArr = arr.slice();             
+        newArr.unshift(element);                
     
-}
+        return newArr;
+    }
+
 
 let input = [1, 2];
 let output = addToFrontOfNew(input, 3);

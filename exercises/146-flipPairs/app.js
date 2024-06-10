@@ -1,6 +1,6 @@
 function flipPairs(input) {
     // your code here
-    
+    return input.replace(/(.)(.)/g, '$2$1');
 }
 
 let input = "Can you see what this is about?";
